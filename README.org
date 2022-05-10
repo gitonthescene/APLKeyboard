@@ -1,0 +1,21 @@
+* APLKeyboard
+  This is an [[https://aplwiki.com/][APL]] [[http://omz-software.com/pythonista/docs/ios/pythonista_shortcuts.html#pythonista-keyboard][Keyboard]] written for use with [[http://omz-software.com/pythonista/][Pythonista 3]].
+
+** Setup
+   - First you'll need to have the Pythonista Keyboard enabled on your device per the [[http://omz-software.com/pythonista/docs/ios/pythonista_shortcuts.html#pythonista-keyboard][documentation]].
+   - Next you'll need to install the files from this repository in Pythonista.  (I have them under "This Phone".)
+   - Then you'll have to let the Python Keyboard know to use this module.
+     - Find the top leve Pythonista menu
+     - Click on the Settings icon in the lower right
+     - Open Pythonista Keyboard
+     - Click on the + at the top to add this module
+     - Supply the name of the module (i.e. APLKeyboard) and a title and pick an icon and/or color
+   - I needed to restart my iPhone to pick up the addition of the new keyboard the first time
+   - You should be good to go!
+
+** Modifications
+   The script is sitting in your version of Pythonista so feel free to make whatever modifications
+   seem appropriate.  I tried to pull out the colors to the script to make it easier to modify.
+
+   Still, feel free to open issues and/or post pull requests.  I'll merge them if they seem
+   generally useful.
