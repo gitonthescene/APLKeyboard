@@ -8,7 +8,7 @@
    - First you'll need to have the Pythonista Keyboard enabled on your device per the [[http://omz-software.com/pythonista/docs/ios/pythonista_shortcuts.html#pythonista-keyboard][documentation]].
    - Next you'll need to install the files from this repository in Pythonista.  (I have them under "This Phone".)
    - Then you'll have to let the Python Keyboard know to use this module.
-     - Find the top leve Pythonista menu
+     - Find the top level Pythonista menu
      - Click on the Settings icon in the lower right
      - Open Pythonista Keyboard
      - Click on the + at the top to add this module
