@@ -1,3 +1,6 @@
+% -*- coding: utf-8 -*-
+#+STARTUP: inlineimages
+
 * APLKeyboard
   This is an [[https://aplwiki.com/][APL]] [[http://omz-software.com/pythonista/docs/ios/pythonista_shortcuts.html#pythonista-keyboard][Keyboard]] written for use with [[http://omz-software.com/pythonista/][Pythonista 3]].
 
@@ -19,3 +22,11 @@
 
    Still, feel free to open issues and/or post pull requests.  I'll merge them if they seem
    generally useful.
+
+** Screenshots
+   [[./img/APL.jpg]]
+
+   [[./img/APL-shift.jpg]]
+
+   [[./img/APL-op.jpg]]
+   
