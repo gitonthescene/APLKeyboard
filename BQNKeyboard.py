@@ -28,8 +28,7 @@ class BQNKeyboardView(ui.View):
 
         self.shift = False
         self.shiftLock = False
-        self.layouts = [[layout1, layout2],
-                        [layout1s, layout2s]]
+        self.layouts = [[layout1, layout2], [layout1s, layout2s]]
         self.layout = 0
         self.layoutTrans = [[1, 0], [1, 0]]
 
@@ -57,13 +56,16 @@ class BQNKeyboardView(ui.View):
         shft = 1 if (self.shiftLock or self.shift) else 0
         layout = self.layouts[shft][self.layout]
         for i in range(len(layout1)):
-            self[f'b{i}'].title = layout[i]
+            title = layout[i]
+            if self.layout == 1:
+                title += "\ufe0e"
+            self[f'b{i}'].title = title
             self.setAltLabels()
         for side in 'lr':
             self[f'shft{side}'].title = shftkey[self.shiftLock]
 
     def out_action(self, sender):
-        text = sender.title
+        text = sender.title[0]
         self.shift = False
         self.setKeyLayout()
         if keyboard.is_keyboard():
