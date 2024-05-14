@@ -1,7 +1,11 @@
 #+STARTUP: inlineimages
 
-* APLKeyboard
-  This is an [[https://aplwiki.com/][APL]] [[http://omz-software.com/pythonista/docs/ios/pythonista_shortcuts.html#pythonista-keyboard][Keyboard]] written for use with [[http://omz-software.com/pythonista/][Pythonista 3]].
+* APL/BQN Keyboard
+  This is an [[https://aplwiki.com/][APL]] / [[https://mlochbaum.github.io/BQN/][BQN]] [[http://omz-software.com/pythonista/docs/ios/pythonista_shortcuts.html#pythonista-keyboard][Keyboard]] written for use with [[http://omz-software.com/pythonista/][Pythonista 3]]. It can then be used system-wide on IOS devices.
+
+** Updates in this Fork
+  - Since iOS devices vary in size, there is now a (fairly dumb) script to scale the keyboard layouts as needed.
+  - Added examples of scaled keyboards that work on my devices (feel free to suggest others)
 
 ** Setup
    - First you'll need to have the Pythonista Keyboard enabled on your device per the [[http://omz-software.com/pythonista/docs/ios/pythonista_shortcuts.html#pythonista-keyboard][documentation]].
